@@ -8,5 +8,9 @@ public class Testing {
 	public void testing() {
 		System.out.println("going on");
 	}
+	@Test
+	public void testinga() {
+		System.out.println("going a on");
+	}
 	
 }
