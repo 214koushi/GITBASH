@@ -7,7 +7,7 @@ public class TESTlead {
 	public void testing() {
 		System.out.println("completed ");
 	}
-	@Test
+	@Test(groups = "smoke")
 	public void Testing2() {
 		System.out.println("not completed ");
 	}

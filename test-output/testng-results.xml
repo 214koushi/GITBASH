@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="4" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-08-18T17:44:12 IST" name="Suite" finished-at="2023-08-18T17:44:12 IST" duration-ms="143">
+    <groups>
+      <group name="smoke">
+        <method signature="TESTlead.Testing2()[pri:0, instance:practice.TESTlead@6f96c77]" name="Testing2" class="practice.TESTlead"/>
+        <method signature="Testing.testing()[pri:0, instance:practice.Testing@5bd03f44]" name="testing" class="practice.Testing"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2023-08-18T17:44:12 IST" name="Test" finished-at="2023-08-18T17:44:12 IST" duration-ms="143">
+      <class name="practice.TESTlead">
+        <test-method signature="Testing2()[pri:0, instance:practice.TESTlead@6f96c77]" started-at="2023-08-18T17:44:12 IST" name="Testing2" finished-at="2023-08-18T17:44:12 IST" duration-ms="18" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Testing2 -->
+      </class> <!-- practice.TESTlead -->
+      <class name="practice.Testing">
+        <test-method signature="testing()[pri:0, instance:practice.Testing@5bd03f44]" started-at="2023-08-18T17:44:12 IST" name="testing" finished-at="2023-08-18T17:44:12 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testing -->
+      </class> <!-- practice.Testing -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
